@@ -1,0 +1,126 @@
+﻿@font-face {
+	font-family: "LatoRegular";
+	src: url(fonts/LatoRegular.ttf);
+}
+
+.up {text-transform: uppercase;}
+.none {text-decoration: none;}
+.bold {font-weight: bold;}
+.un {text-decoration: underline;}
+.in {display: inline-block;}
+.vam {vertical-align: middle;}
+.rel {position: relative;}
+.bl {display: block;}
+.abs {position: absolute;}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: #fff;
+}
+
+body, th, td {
+	font-family: "LatoRegular";
+	font-size: 14px;
+	color: #333333;
+}
+
+body, form, object, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+img, table {
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td {
+	padding: 0;
+}
+
+a {
+	color: #333333;
+	cursor: pointer;
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+input, textarea, button, select {
+	margin: 0;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+button, input[type='submit'] {
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+	cursor: pointer;
+}
+
+.an {
+	-webkit-transition: all 800ms ease;
+	-moz-transition: all 800ms ease;
+	-ms-transition: all 800ms ease;
+	-o-transition: all 800ms ease;
+	transition: all 800ms ease;
+}
+
+section, header, footer, nav, main {
+	display: block;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrap {
+	margin: 0 auto;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 1200px) {
+	.wrap {width: 970px;}
+}
+
+@media (max-width: 991px) {
+	.wrap {width: 747px;}
+}
+
+@media (max-width: 767px) {
+	.wrap {width: auto;}
+}
